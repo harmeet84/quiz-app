@@ -17,7 +17,9 @@
     "isolatedModules": true,
     "noEmit": true,
     "types": [
-      "vite/client"
+      "vite/client",
+      "@testing-library/jest-dom",
+      "node"
     ],
     "baseUrl": ".",
     "paths": {
@@ -27,6 +29,7 @@
     }
   },
   "include": [
-    "src"
+    "src",
+    "jest.config.ts"
   ]
 }
